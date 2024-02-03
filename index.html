@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <style>
+      section {
+        min-height: 100vh;
+        padding: 50px 0;
+      }
+      h1 {
+        text-align: center;
+      }
+      .result {
+        padding: 0 20px;
+        height: 50px;
+        border: 1px solid green;
+        margin-top: 20px;
+        display: grid;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Bài 1 -->
+    <section>
+      <div class="container">
+        <h1>Bài tập 1</h1>
+        <div class="form-group">
+          <label for="soA">Nhập số thứ 1</label>
+          <input
+            type="text"
+            name="soA"
+            id="soA"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="soB">Nhập số thứ 2</label>
+          <input
+            type="text"
+            name="soB"
+            id="soB"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="soC">Nhập số thứ 3</label>
+          <input
+            type="text"
+            name="soC"
+            id="soC"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <button type="button" class="btn btn-primary" id="btnBai1">
+          Sắp xếp tăng
+        </button>
+        <div id="result__bai1" class="result"></div>
+      </div>
+    </section>
+
+    <!-- Bài 2 -->
+    <section>
+      <div class="container">
+        <h1>Bài tập 2</h1>
+        <div class="form-group">
+          <label for="select__Bai2"></label>
+          <select class="form-control" name="" id="familySelected">
+            <option value="B">Bố</option>
+            <option value="M">Mẹ</option>
+            <option value="A">Anh trai</option>
+            <option value="E">Em gái</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-primary" id="btnBai2">
+          Click here
+        </button>
+        <div id="result__bai2" class="result"></div>
+      </div>
+    </section>
+
+    <!-- Bài 3 -->
+    <section>
+      <div class="container">
+        <h1>Bài tập 3</h1>
+        <div class="form-group">
+          <label for="number1">Nhập số nguyên 1</label>
+          <input
+            type="text"
+            name="number1"
+            id="number1"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="number2">Nhập số nguyên 2</label>
+          <input
+            type="text"
+            name="number2"
+            id="number2"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="number3">Nhập số nguyên 3</label>
+          <input
+            type="text"
+            name="number3"
+            id="number3"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <button type="button" class="btn btn-primary" id="btnBai3">
+          Click here
+        </button>
+        <div id="result__bai3" class="result"></div>
+      </div>
+    </section>
+
+    <!-- Bài 4 -->
+    <section>
+      <div class="container">
+        <h1>Bài tập 4</h1>
+        <div class="form-group">
+          <label for="canh1">Cạnh 1</label>
+          <input
+            type="text"
+            name="canh1"
+            id="canh1"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="canh2">Cạnh 2</label>
+          <input
+            type="text"
+            name="canh2"
+            id="canh2"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="number3">Cạnh 3</label>
+          <input
+            type="text"
+            name="canh3"
+            id="canh3"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <button type="button" class="btn btn-primary" id="btnBai4">
+          Click here
+        </button>
+        <div id="result__bai4" class="result"></div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script JS -->
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
