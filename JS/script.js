@@ -171,7 +171,7 @@ document.getElementById("btnBai4").onclick = function(){
         loaiTamGiac = "Tam giác vuông";
     }
     else{
-        loaiTamGiac = "Tam giác nhọn"
+        loaiTamGiac = "Tam giác thường"
     }
     document.getElementById("result__bai4").innerHTML = loaiTamGiac;
 }
